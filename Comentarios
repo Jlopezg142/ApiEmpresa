@@ -1,0 +1,9 @@
+// appsettings.json 
+    // conexion a SQL  "DefaultConnection": "Server=172.21.100.57[SRVR1-PT].[Servicios];Database=Northwind;User Id=sa1;Password=ElArenal.2018; TrustServerCertificate=true; "
+
+
+//Program.cs
+    //conexion a SQLserver -- opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    // memoria dinamica -- configuracion para trabaar en memoria   opt.UseInMemoryDatabase("TodoList"));
+
+
